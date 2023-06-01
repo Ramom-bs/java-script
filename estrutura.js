@@ -1,36 +1,40 @@
 //Exemplo 1:
-//const condicão1 = true;
-//const condicão2 = false;
+const condicão1 = true;
+const condicão2 = false;
 
-//if (condicão1 && condicão2) {
-//  console.log("verdadeiro");
+if (condicão1 && condicão2) {
+    console.log("verdadeiro");
 
-// } else {
-// console.log("falso");
+} else {
+    console.log("falso");
 
-//}
+}
 
 
-//Exemplo 2:
-// const opcao = 1;
-// switch (opcao) {
-//     case 1:
-//         console.log("opcao1");
-//         break;
+// Exemplo 2:
+const opcao = 1;
+switch (opcao) {
+    case 1:
+        console.log("opcão 1");
+        break;
 
-//     case 2:
-//         console.log("opcao2");
-//         break;
+    case 2:
+        console.log("opcão 2");
+        break;
 
-//     default:
-//         console.log("opcao padrao");
-//         break;
-// }        
+    default:
+        console.log("opcao padrao");
+        break;
+}
 
 
 //Exemplo 3:
-let contador = 0
+function principal(mensagem) {
+    for (let i = 0; i < 5; i++) {
+        console.log(i);
+    }
 
-let(contador < 10); {
-    console.log(++contador);
+    console.log(mensagem);
 }
+
+principal("finalizado!!!");
